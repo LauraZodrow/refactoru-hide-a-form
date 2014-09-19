@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hide A From</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<form class="form-update">
+		Name: <br><input type="text" data-target="#name"><br>
+		Bio: <br><input type="text" data-target="#bio"><br>
+		Favorite Books: <br><input type="text" data-target="#books"><br>
+		Favorite JavaScript Libraries: <br><input type="text" data-target="#js"><br>
+		<input type="submit">
+	</form>
+
+	<button class="show-form">Show Form</button>
+
+	<div class="profile-page">
+		<h1>Profile</h1>
+		<h3>Name</h3>
+			<p id="name"></p>
+		<h3>Biography</h3>
+			<p id="bio"></p>
+		<h3>Favorite Books</h3>
+			<p></p>
+		<h3>Favorite JavaScript Libraries</h3>
+			<p id="js"></p>
+
+	</div>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
