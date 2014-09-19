@@ -11,7 +11,6 @@ $(document).on('ready', function() {
  		$('form').toggle();
  		$('.show-form').text("Hide Form");
  	});
-
 });
 
 
